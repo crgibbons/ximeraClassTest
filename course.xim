@@ -2,15 +2,6 @@
 name: ximeraLatex Test Course
 description: A course to test the commands of ximera.cls.
 ---
-
-unit1
-  unit1/basics
-  unit1/final
-unit2
-  unit2/basics
-    unit2/basics/subbasic1
-    unit2/basics/subbasic2
-    unit2/basics/subbasic3
-  unit2/final
-unit3
-unit4
+mastertest
+  mastertest/subtest
+    mastertest/subtest/subsubtest
