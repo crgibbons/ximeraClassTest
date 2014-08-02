@@ -1,4 +1,5 @@
 \documentclass{ximera}
+\usepackage{tikz}
 
 \title{Master Test Activity}
 
@@ -9,18 +10,23 @@
 \end{abstract}
 
 Let's multiply!
+
+\begin{enumerate}[align=left]
+	\item Here's an item.
+\end{enumerate}
+
 \begin{question}
 	What is $3 \times 2$?  \answer{6}
+	\begin{question}
+		Nesting? \answer{error}
+	\end{question}
 \end{question}
 
 Here's an image:
-
 \begin{image}
 	\includegraphics{testCat.jpg}
 \end{image}
-
 And a TikZ line
-
 \begin{image}
 	\begin{tikzpicture}
 		\draw[thick] (0,0) -- (2,2);
