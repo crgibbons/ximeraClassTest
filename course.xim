@@ -2,7 +2,6 @@
 name: ximeraLatex Test Course
 description: A course to test the commands of ximera.cls.
 ---
-exampleActivityCollection
 examples
   examples\firstExample
   examples\secondExample
